@@ -26,7 +26,7 @@ RSpec.describe Group, type: :model do
 
   it 'should destroy dependent memberships created' do
     group1 = FactoryBot.create(:group, name: 'School expenses')
-    user1 = FactoryBot.create(:user, username: 'user1', email: 'user1@example.com')
+    user1 = FactoryBot.create(:user, username: 'user1', email: 'user1@example.com', password_digest: 'password')
     membership = FactoryBot.create(:membership, group: group1, member: user1)
     expect { group1.destroy }.to change { Membership.count }.by(-1)
   end

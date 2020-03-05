@@ -9,7 +9,11 @@
   <a href="http://rubyonrails.org/">
     <img src="https://img.shields.io/badge/Rails-v6.0.2.1-brightgreen.svg" alt="rails version">
   </a>
+    <a href="http://travis-ci.org/">
+      <img src="https://travis-ci.org/AndresFMoya/ror-real_time_transactions-backend.svg?branch=develop" alt="build status">
+    </a>
 </p>
+
 
 This app consist of a _Group our Transactions_ App built with Rails API in the backend and ReactJS in the front end.  
 
