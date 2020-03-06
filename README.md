@@ -1,5 +1,5 @@
 <p>
-  <h1 align="center">Rails API, React - Group Our Transactions</h1>
+  <h1 align="center">Rails API, Real Time Transactions</h1>
 </p>
 <br>
 <p align="center">
