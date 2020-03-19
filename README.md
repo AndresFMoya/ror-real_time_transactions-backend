@@ -15,7 +15,22 @@
 </p>
 
 
-This app consist of a _Group our Transactions_ App built with Rails API in the backend and ReactJS in the front end.  
+This app consist of building a Real Time _Group our Transactions_ App using Rails API in the backend and ReactJS in the front end.  
+
+## Technologies used
+
+- Ruby on Rails
+- PostgreSQL
+- GraphQL
+- ReactJS
+- Apollo
+- RSpec
+- HTML
+- CSS
+- Git
+- Stickler
+- Rubocop
+- IDE (RubyMine / WebStorm)
 
 ### ERD
 ![ERD](/lib/assets/Grouping_Transactions_ERD.jpeg?raw=true "ERD")
@@ -38,32 +53,50 @@ This app consist of a _Group our Transactions_ App built with Rails API in the b
   $ cd rails_group_transactions
   ```
 - You need to install the gems:
-   - You may need to first run `bundle install` if you have older gems in your environment from previous Rails work. If you get an error message like `Your Ruby version is 2.x.x, but your Gemfile specified 2.4.4` then you need to install the ruby version 2.6.4 using `rvm` or `rbenv`.
-     - Using **rvm**: `rvm install 2.6.4` followed by `rvm use 2.6.4`
-     - Using **rbenv**: `rbenv install 2.6.4` followed by `rbenv local 2.6.4`
+   - You may need to first run `bundle install` if you have older gems in your environment from previous Rails work. If you get an error message like `Your Ruby version is 2.x.x, but your Gemfile specified 2.6.5` then you need to install the ruby version 2.6.5 using `rvm` or `rbenv`.
+     - Using **rvm**: `rvm install 2.6.5` followed by `rvm use 2.6.5`
+     - Using **rbenv**: `rbenv install 2.6.5` followed by `rbenv local 2.6.5`
    - Install gems with `bundle install --without production` from the rails root folder, to install the gems you'll need, excluding those needed only in production.
 - Run `rails db:create` followed by `rails db:migrate` to set up the database
 - Install static assets (like external javascript libraries, fonts) with `yarn install`    
 - To launch the app locally run: `heroku local -f Procfile.dev`.
 
 
-### 🤝 Contributing
+## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests are welcome! Feel free to check [issues page](https://github.com/AndresFMoya/ror-real_time_transactions-backend/issues).
 
-Feel free to check the [issues page](https://github.com/AndresFMoya/rails_group_transactions/issues).
+1. Fork it (https://github.com/AndresFMoya/ror-real_time_transactions-backend/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new pull request
 
-### Show your support
+
+## Contributors
+
+- Andres Felipe Moya https://github.com/AndresFMoya
+
+## Show your support
 
 Give a ⭐️ if you like this project!
 
-### 📝 License
 
-This project is [MIT](https://github.com/AndresFMoya/rails_group_transactions/blob/feature/setup/LICENSE) licensed.
+## License
+
+This project is [MIT](https://github.com/AndresFMoya/ror-real_time_transactions-backend/blob/develop/LICENSE) licensed.
+
+
+## 📞 Get in Touch!
+I will love to hear about you at one of the following places! :heart:
+
+- [LinkedIn](https://www.linkedin.com/in/andres-f-moya/)
+- [Twitter](https://www.twitter.com/andmedev/) 
+- <andresfmoya@gmail.com>.
 
 <p align="center">
   <strong>
-    <a href="https://github.com/AndresFMoya">Contributor: Andres Moya</a>
+    <a href="https://andresmoya.me">andresmoya.me</a>
 </strong>
 </p>
 
