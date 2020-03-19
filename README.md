@@ -15,7 +15,9 @@
 </p>
 
 
-This app consist of building a Real Time _Group our Transactions_ App using Rails API in the backend and ReactJS in the front end.  
+This app consist of building a Real Time _Group our Transactions_ App using Rails GraphQL API in the backend and ReactJS in the front end.  
+
+[Front-End](https://github.com/AndresFMoya/ror-real_time_transactions-frontend)
 
 ## Technologies used
 
